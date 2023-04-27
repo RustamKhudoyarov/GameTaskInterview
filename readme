@@ -1,0 +1,34 @@
+
+Create an abstract Character Class:
+        - create a private variable NAME with String type.
+        - create a protected variable MAX_HEALTH with int type, default it to 10.
+        - create a protected variable HEALTH with int type, default it to MAX_HEALTH.
+        - create a constructor that takes in a String as a parameter and assign it to NAME.
+        - create getters/setters for NAME.
+        - create a public abstract method named examine.
+
+        Create a Warrior class that inherits Character Class:
+        - create a private variable STRENGTH with int type.
+        - create 2 constructors:
+        - Default constructor that sets the name to "Vannaka"
+        - A constructor that takes in 3 parameters:
+        - NAME as type String and assign it to NAME
+        - HEALTH as type int and assign it to HEALTH.
+        - STRENGTH as type int and assign it to STRENGTH.
+
+        - create 2 methods:
+        - create a public void heal method that takes in an int parameter named hpHealed
+        - add hpHealed to HEALTH
+        - create a public void takeDamage method that takes in an int parameter named dmgTaken
+        - subtract dmgTaken from HEALTH
+
+        - Implement examine method to print out "My name is [NAME]":
+        - NAME should be the character's NAME variable
+
+        Create a Game Class:
+        - create a main method:
+        - Instantiate a Warrior class with a name, health set at 100 and strength set at 50
+        - Have the warrior take 99 damage
+        - Have the warrior heal 20 health
+        - Have the warrior call examine
+
