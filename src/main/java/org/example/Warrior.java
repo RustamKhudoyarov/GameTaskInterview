@@ -13,13 +13,10 @@ public class Warrior extends Character {
     }
 
     public int heal(int hpHealed) {
-        //int health = super.health + hpHealed;
         return super.health + hpHealed;
-
     }
 
     public int takeDamage(int dmgTaken) {
-        //int remainHealth = super.health - dmgTaken;
         return super.health - dmgTaken;
     }
 
