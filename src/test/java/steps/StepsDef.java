@@ -9,7 +9,7 @@ import org.junit.Assert;
 public class StepsDef {
     private final Warrior warrior = new Warrior("Test",100,10);
 
-    @Given(": The warrior have {int} health")
+    @Given(": The warrior has {int} health")
     public void the_warrior_have_health(Integer health) {
 
         warrior.heal(health);
